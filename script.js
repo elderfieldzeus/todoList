@@ -17,7 +17,7 @@ taskbar.placeholder = randomTask();
 
 const addTask = () => {
     if(taskbar.value === "") {
-        alert("TASKBAR CANNOT BE EMPTY"); 
+        alert("PLEASE ENTER A TASK"); 
         return;
     }
 
